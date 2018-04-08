@@ -12,6 +12,12 @@ This distribution is currently in the planning phase. Everything is being planne
 
 # Plans
 
+### Installation
+
+Installation of cupcake should be just as simple as installing Arch Linux.
+
+Users should only need to change their pacman configuration when booted into a live CD (from Arch Linux's mirrorlist to cupake's), and installation of the system will continue as normal (i.e. users will still use `base` to install the base system, but it uses the cupcake base group, rather than Arch's).
+
 ### Init system
 
 The init system should follow OpenBSD's init system, in that `/etc/rc` starts the system itself, and users add things to `/etc/rc.local`. The init script should not handle anything outside of simply starting the system.
