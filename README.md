@@ -4,11 +4,11 @@ cupcake is a Linux Distribution based on Arch Linux that sets out to accomplish 
 
 This distribution is currently in the planning phase. Everything is being planned out before actually being setup (hence the stubs).
 
-* Get rid of Systemd. Systemd is an absolute cancer in the Linux community. It does too much, and is too bloated. There's many articles, pages, lists, etc of why Systemd is bad, refer to one of those.
-
 * Custom package manager. Pacman is fantastic for the purposes of Arch Linux (consider looking into it if you haven't, it's got a lot of great functionality, and the way Arch does packaging is absolutely beautiful as well), but cupcake aims to have a more user-based installation.
 
 * Cleaner root file system. The normal file system hierarchy of Arch Linux, and by extensions the file system hierarchy standard, is quite dirty in my opinion.
+
+* Be systemd-free. Systemd is too thick for the purposes of cupcake, and will be excluded from the base installation.
 
 # Table of Contents
 
@@ -28,7 +28,7 @@ Users should only need to change their pacman configuration when booted into a l
 
 ### Init system
 
-The init system should follow OpenBSD's init system, in that `/etc/rc` starts the system itself, and users add things to `/etc/rc.local`. The init script should not handle anything outside of simply starting the system.
+The init system should be BSD-like, in that `/etc/rc` starts the system itself, and users add things to `/etc/rc.local`. The init script should not handle anything outside of simply starting the system.
 
 This is still being planned out, and is currently the least planned feature.
 
@@ -40,7 +40,7 @@ The package manager, ckpkg, has a handful of philosophies:
 
 * Packages that aren't required by the underlying system should be installed to the users home directory, so as not to create bloat on the system itself.
 
-* Users should be able to choose whether they want to build/compile packages themselves, install prebuilt binaries, and/or keep multiple versions of a package installed (to prevent bitrot).
+* Users should be able to choose whether they want to build/compile packages themselves, install prebuilt binaries, and/or keep multiple versions of a single package installed.
 
 ### File system
 
