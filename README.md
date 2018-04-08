@@ -10,6 +10,14 @@ This distribution is currently in the planning phase. Everything is being planne
 
 * Cleaner root file system. The normal file system hierarchy of Arch Linux, and by extensions the file system hierarchy standard, is quite dirty in my opinion.
 
+# Table of Contents
+
+* [Plans](https://github.com/Sweets/cupcake#plans)
+* [Installation](https://github.com/Sweets/cupcake#installation)
+* [Init system](https://github.com/Sweets/cupcake#init-system)
+* [Package manager](https://github.com/Sweets/cupcake#package-manager)
+* [File system](https://github.com/Sweets/cupcake#file-system)
+
 # Plans
 
 ### Installation
