@@ -8,7 +8,7 @@ This distribution is currently in the planning phase. Everything is being planne
 
 * Cleaner root file system. The normal file system hierarchy of Arch Linux, and by extensions the file system hierarchy standard, is quite dirty in my opinion.
 
-* Be systemd-free. Systemd is too thick for the purposes of cupcake, and will be excluded from the base installation.
+* Be systemd-free. Systemd is a bit of a cancer in the Linux community, and is too thick for the purposes of cupcake.
 
 # Table of Contents
 
