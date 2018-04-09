@@ -8,7 +8,7 @@ This distribution is currently in the planning phase. Everything is being planne
 
 * Cleaner root file system. The normal file system hierarchy of Arch Linux, and by extensions the file system hierarchy standard, is quite dirty in my opinion.
 
-* Use muslc as opposed to glibc. (muslc)[https://www.musl-libc.org]
+* Use muslc as opposed to glibc. [muslc](https://www.musl-libc.org)
 
 * Be systemd-free. Systemd is a bit of a cancer in the Linux community, and is too thick for the purposes of cupcake.
 
