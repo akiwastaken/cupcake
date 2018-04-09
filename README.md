@@ -8,7 +8,13 @@ This distribution is currently in the planning phase. Everything is being planne
 
 * Cleaner root file system. The normal file system hierarchy of Arch Linux, and by extensions the file system hierarchy standard, is quite dirty in my opinion.
 
+* Use muslc as opposed to glibc. (muslc)[https://www.musl-libc.org]
+
 * Be systemd-free. Systemd is a bit of a cancer in the Linux community, and is too thick for the purposes of cupcake.
+
+* ZSH default shell, with sane defaults.
+
+Note that cupcake is currently, as mentioned previously, in the planning phase. Many things are prone to being changed, removed, and new things to be added. Suggestions are encouraged!
 
 # Table of Contents
 
