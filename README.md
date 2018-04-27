@@ -8,6 +8,8 @@ This distribution is currently in the planning phase. Everything is being planne
 
 * Cleaner root file system. The normal file system hierarchy of Arch Linux, and by extensions the file system hierarchy standard, is quite dirty in my opinion.
 
+* Use patches and patchsets for the Linux kernel to provide more either responsiveness, processing speed or power, or anything in between.
+
 * Use muslc as opposed to glibc. [muslc](https://www.musl-libc.org)
 
 * Be systemd-free. Systemd is a bit of a cancer in the Linux community, and is too thick for the purposes of cupcake.
@@ -23,6 +25,7 @@ Note that cupcake is currently, as mentioned previously, in the planning phase. 
 * [Init system](https://github.com/Sweets/cupcake#init-system)
 * [Package manager](https://github.com/Sweets/cupcake#package-manager)
 * [File system](https://github.com/Sweets/cupcake#file-system)
+* [Kernel](https://github.com/Sweets/cupcake#kernel)
 
 # Plans
 
@@ -55,3 +58,11 @@ The package manager, ckpkg, has a handful of philosophies:
 * The home directory should be more sensible to a new user, and is renamed to `/users` (e.g. `/home/grace` -> `/users/grace`)
 * Root's home directory as a child of `/users`
 * `/boot` remains untouched.
+
+### Kernel
+
+Patches planned for usage:
+
+* BLD
+
+Kernel planend for usage: Linux Zen
