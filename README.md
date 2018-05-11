@@ -65,4 +65,4 @@ Patches planned for usage:
 
 * BLD
 
-Kernel planend for usage: Linux Zen
+Kernel planned for usage: Linux Zen
